@@ -32,19 +32,19 @@
             <div class="form-box">
                 <heading>Lets do this!</heading>
                 <div class="form">
-                    <form action="example.com" method="post">
+                    <form action="example.com" method="post" id="my-form">
                         <div class="formrow1">
                             <div class="first-name">
                                 <label for="first_name">First Name</label>
-                                <input type="text" id="first_name">
+                                <input type="text" id="first_name" required>
                             </div>
                             <div class="last-name">
                                 <label for="last_name">Last Name</label>
-                                <input type="text" id="last_name">
+                                <input type="text" id="last_name" required>
                             </div>
                             <div class="email">
                                 <label for="email">Email</label>
-                                <input type="email" id="email">
+                                <input type="email" id="email" optional>
                             </div>
                         </div>
                         </form>
@@ -52,18 +52,21 @@
                     <div class="formrow2">
                         <div class="phone-number">
                             <label for="phone_number">Phone Number</label>
-                            <input type="number" id="phone_number">
+                            <input type="number"id="phone_number" optional>
                         </div>
                         <div class="password">
                             <label for="password">Password</label>
-                            <input type="password" id="password">
+                            <input type="password" id="password" error>
                         </div>
                         <div class="confirm-password">
                             <label for="confirm_password">Confirm Password</label>
-                            <input type="password" id="confirm_password">
+                            <input type="password" id="confirm_password" error>
                         </div>
                         
                     </div>
+                </div>
+                <div class="subit-box">
+                    <button type="submit" form="my-form">CREATE ACCOUNT</button>
                 </div>
             </div>
         </div>
