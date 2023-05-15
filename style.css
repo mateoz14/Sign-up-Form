@@ -80,10 +80,40 @@ img.logo {
     display: flex;
     flex-direction: column;
     padding: 5px;
+    flex-wrap: wrap;
+}
+
+heading {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .formrow1, .formrow2{
+    font-size: 15px;
     display: flex;
     flex-direction: row;
     gap: 30px;
+    font-size: 17px;
 }
+
+label {
+    position: relative;
+    width: 15rem;
+    margin-bottom: 15px;
+}
+
+button[type='submit'] {
+    padding: .8rem 1.3rem;
+    font-size: 1.3rem;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: -1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+    margin-top: 2rem;
+}
+  
+  button[type='submit']:hover {
+    background-color: rgb(126, 39, 126);
+  }
