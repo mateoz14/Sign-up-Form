@@ -1,0 +1,13 @@
+html body {
+    font-family: monospace;
+}
+
+main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-logo {
+    
+}
